@@ -79,3 +79,8 @@
         - 'title' is the name of the variable we will put this in a curly brace in our  return block
         - props.title is the initial value of the variable 'title'
         
+## props in react
++ You add the data to your app.js
++ you access them using the dot notation or [] in the self-closing tags of the element in app.js
++ you should then receive all the data via an argument 'props' in the conponent where you wanna use it
++ Then you can access the value between any tag using props.name where name is the name you used to save the value in your app.js file
