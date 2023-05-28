@@ -81,6 +81,6 @@
         
 ## props in react
 + You add the data to your app.js
-+ you access them using the dot notation or [] in the self-closing tags of the element in app.js
-+ you should then receive all the data via an argument 'props' in the conponent where you wanna use it
-+ Then you can access the value between any tag using props.name where name is the name you used to save the value in your app.js file
++ you set the attributes of your custom component dynamically to your data using dot notation or you can hardcode the values. This is done in your app.js within the self-closing tag of your custom component.
++ In your custom component, you should then receive all the data via an argument 'props' 
++ Then you can access the value in your custom component between any tag using props.name where name is the name you used to save the value in your app.js file.
