@@ -90,3 +90,8 @@
 + <button onClick={FunctionName}>Change Title</button>
 + Do not execute the function by add (), just write the name.
 + If you add the (), javascript will automatically execute the function when the component is returned which is not what we want.
+
+## Adding forms
++ When you use an event listner like onChange, you get an event object from the browser which contains details of the event that occur.
++ You can have access to this via an argument 'event' that youn should pass into your event handler function.
++ To get the value in an input field, you use the event.target.value
