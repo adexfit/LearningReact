@@ -79,9 +79,6 @@
         - 'title' is the name of the variable we will put this in a curly brace in our  return block
         - props.title is the initial value of the variable 'title'
 
-+ You can have multiple state
-+ States are being replaced when they are updated
-+ When you are updating a state that depends on another state, pass a callback that accept the previous state and then set the new state.
         
 ## props in react
 + You add the data to your app.js
@@ -106,3 +103,8 @@
 + The default behaviour is that the page reloads.
 + To prevent this behaviour, we pass in the 'event' as argument and call event.preventDefault() in the body of the submit handler 
 + We can get all the data inputted from the variable name of the useState expression and add everything in an object in the submitHandler function.
+
+## Multiple states
++ You can have multiple state
++ States are being replaced when they are updated
++ When you are updating a state that depends on another state, pass a callback that accept the previous state and then set the new state.
