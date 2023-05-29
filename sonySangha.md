@@ -41,11 +41,6 @@ useEffect(() => {
 }, [name]);
 
 
-
-
-
-
-
 ## Using the useState Hook in react
 + state is a corect way of defining variable in react
 + We can store anything inside a state
