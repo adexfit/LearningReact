@@ -78,6 +78,10 @@
         - 'setTitle' is the name of the function we will use to change the state
         - 'title' is the name of the variable we will put this in a curly brace in our  return block
         - props.title is the initial value of the variable 'title'
+
++ You can have multiple state
++ States are being replaced when they are updated
++ When you are updating a state that depends on another state, pass a callback that accept the previous state and then set the new state.
         
 ## props in react
 + You add the data to your app.js
@@ -95,3 +99,10 @@
 + When you use an event listner like onChange, you get an event object from the browser which contains details of the event that occur.
 + You can have access to this via an argument 'event' that youn should pass into your event handler function.
 + To get the value in an input field, you use the event.target.value
++ event.target.value will always return a string even if it is a number
+
+## forms submission
++ We can prevent the default form submission behavior that occurs when a 'submit' button is clicked.
++ The default behaviour is that the page reloads.
++ To prevent this behaviour, we pass in the 'event' as argument and call event.preventDefault() in the body of the submit handler 
++ We can get all the data inputted from the variable name of the useState expression and add everything in an object in the submitHandler function.
