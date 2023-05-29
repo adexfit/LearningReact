@@ -85,6 +85,7 @@
 + you set the attributes of your custom component dynamically to your data using dot notation or you can hardcode the values. This is done in your app.js within the self-closing tag of your custom component.
 + In your custom component, you should then receive all the data via an argument 'props' 
 + Then you can access the value in your custom component between any tag using props.name where name is the name you used to save the value in your app.js file.
++ Props can only be passed from parent to child, we can't skip intermediate components.
 
 ## Event listeners
 + Define a function before the return block in your code.
@@ -108,3 +109,11 @@
 + You can have multiple state
 + States are being replaced when they are updated
 + When you are updating a state that depends on another state, pass a callback that accept the previous state and then set the new state.
+
+## Two-way binding
++ As we are updating the state in a field, we also want to pass back the new value into the input fields.
++ We do this by setting the value property in the input field to the variable name of the setState. e.g <input value={enteredDate} />
++ To clear the fields after a form submission, we set the states of the fields to an empty string in the submit handler after submission.
+
+## Child-to-parent communication
++
