@@ -84,3 +84,9 @@
 + you set the attributes of your custom component dynamically to your data using dot notation or you can hardcode the values. This is done in your app.js within the self-closing tag of your custom component.
 + In your custom component, you should then receive all the data via an argument 'props' 
 + Then you can access the value in your custom component between any tag using props.name where name is the name you used to save the value in your app.js file.
+
+## Event listeners
++ Define a function before the return block in your code.
++ <button onClick={FunctionName}>Change Title</button>
++ Do not execute the function by add (), just write the name.
++ If you add the (), javascript will automatically execute the function when the component is returned which is not what we want.
