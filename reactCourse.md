@@ -127,4 +127,4 @@
 + Presentational or dumb component is a stateless component
 
 ## Adding keys to list
-+ 
++ For every object or list, you should set a key which should be unique to  
