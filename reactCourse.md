@@ -118,3 +118,13 @@
 ## Child-to-parent communication
 + We can create our own event props, give it a function as value. That will allow us to pass a function from a parent component to a child component and then call the function from the child component. When we call the function, we can pass data to the function as parameter. That is how we communicate up.
 + Props can only be passed from parent to child, we can't skip intermediate component.
+
+## Lifting state up
++ We move data from a child component to the parent component so that we can also use the data in other children components that are related to that parent.
+
+## Stateful and stateless/Controlled/uncontrolled components
++ A stateless component is a component that does not manage any state
++ Presentational or dumb component is a stateless component
+
+## Adding keys to list
++ 
