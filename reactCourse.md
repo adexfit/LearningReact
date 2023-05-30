@@ -116,4 +116,5 @@
 + To clear the fields after a form submission, we set the states of the fields to an empty string in the submit handler after submission.
 
 ## Child-to-parent communication
-+
++ We can create our own event props, give it a function as value. That will allow us to pass a function from a parent component to a child component and then call the function from the child component. When we call the function, we can pass data to the function as parameter. That is how we communicate up.
++ Props can only be passed from parent to child, we can't skip intermediate component.
