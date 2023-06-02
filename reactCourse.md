@@ -128,3 +128,6 @@
 
 ## Adding keys to list
 + For every object or list, you should set a key which should be unique to  
+
+## CSS Styling in react
++ You can use Styled component library or use css modules or the normal css
