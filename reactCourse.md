@@ -132,5 +132,7 @@
 ## CSS Styling in react
 + You can use Styled component library or use css modules or the normal css
 
-## React rules
+## React rules/errors
 + Adjacent elements must be wrapped in a single element before they are returned. That is because the returned statement is calling React.createElement()
++ undefined error means you are trying to use something (variable, function) you did not define.
++ Learn to check the console for errors
