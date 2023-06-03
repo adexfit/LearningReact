@@ -136,3 +136,5 @@
 + Adjacent elements must be wrapped in a single element before they are returned. That is because the returned statement is calling React.createElement()
 + undefined error means you are trying to use something (variable, function) you did not define.
 + Learn to check the console for errors
++ You can also use breakpoints to find errors
++ You can also download chrome react dev tool extension 
