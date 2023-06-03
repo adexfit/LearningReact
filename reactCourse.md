@@ -131,3 +131,6 @@
 
 ## CSS Styling in react
 + You can use Styled component library or use css modules or the normal css
+
+## React rules
++ Adjacent elements must be wrapped in a single element before they are returned. That is because the returned statement is calling React.createElement()
