@@ -138,3 +138,9 @@
 + Learn to check the console for errors
 + You can also use breakpoints to find errors
 + You can also download chrome react dev tool extension 
+
+## React fragments
++ <React.fragment></React.fragment>
++ or <></>
++ The first syntax will always work but the second depends on your project setup.
++ you can import fragments and use the syntax below <Fragment></Fragment>
