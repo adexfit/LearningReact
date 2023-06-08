@@ -161,3 +161,7 @@
 + When you establish the connection, the DOM node is stored as an object in the variable of the ref.
 + Rarely use ref to manipulate DOM
 + refs is good if you just need to read values and you are not managing any state.
+
+## Controlled and uncontrolled components
++ When a form/input is being managed by the use of state and the values are being fed back into the input fields via the state management, it is a controlled component.
++ A form/input is uncintrolled if it is not being controlled by react via state or other means.
