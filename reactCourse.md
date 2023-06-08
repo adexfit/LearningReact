@@ -152,3 +152,12 @@
 + call the ReactDOM.createPortal() 
 + The first argument for ReactDOM.createPortal() is the component we want to render and the second argument is where we want to render it. 
 + When you specify the coponent to render, you also have to forward the props by specifying them.
+
+## React refs
++ It is a react hook
++ It means references
++ They allow us to get access to other DOM element and interract with them
++ You can connect your html element to any of your references.
++ When you establish the connection, the DOM node is stored as an object in the variable of the ref.
++ Rarely use ref to manipulate DOM
++ refs is good if you just need to read values and you are not managing any state.
