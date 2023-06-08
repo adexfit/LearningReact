@@ -144,3 +144,11 @@
 + or <></>
 + The first syntax will always work but the second depends on your project setup.
 + you can import fragments and use the syntax below <Fragment></Fragment>
+
+## React portals
++ It helps us to port a component to a new location nomatter how deeply nested they are in our project.
++ You can define a div in the index.html with  an id. That is where we want to render our portal
++ Import ReactDOM from react
++ call the ReactDOM.createPortal() 
++ The first argument for ReactDOM.createPortal() is the component we want to render and the second argument is where we want to render it. 
++ When you specify the coponent to render, you also have to forward the props by specifying them.
