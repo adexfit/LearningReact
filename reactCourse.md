@@ -165,3 +165,13 @@
 ## Controlled and uncontrolled components
 + When a form/input is being managed by the use of state and the values are being fed back into the input fields via the state management, it is a controlled component.
 + A form/input is uncintrolled if it is not being controlled by react via state or other means.
+
+## React Effect or Side Effect
++ They are the other things you do aside rendering the UI and reacting to user input.
++ They include: 
+    - Storing of data in browser storage
+    - Sending of http requests to backend servers
+    - Setting and managing timers
+
++ These are tasks that must happen outside of the normal component evaluation and render cycle - especially since they might block/delay rendering e.g (http requests) 
++ The useEffect hook is used to manage sideEffects 
