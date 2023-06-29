@@ -187,3 +187,10 @@
 + It is more powerful state management
 + Syntax:
     const[state, dispatchfxn] = useReducer(reducerFxn, initialState, initFn)
+
+    - state is the latest state
+
+## useReducer vs useState
++ use useReducer when useState becomes cumbersome
++ use  useSate for independent piece of state/data
++ use useReducer when you have related piece of states 
