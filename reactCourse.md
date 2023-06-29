@@ -175,3 +175,15 @@
 
 + These are tasks that must happen outside of the normal component evaluation and render cycle - especially since they might block/delay rendering e.g (http requests) 
 + The useEffect hook is used to manage sideEffects 
+
+## How to use  useEffect
++ It takes two arguments
+    - The first is a function that should be executed after component evaluation if the specified dependencies changed.
+    - The second is the dependency array
+    -You must add all "things" you use in your effect function if those "things" could change because your component (or some parent component) re-rendered. That's why variables or state defined in component functions, props or functions defined in component functions have to be added as dependencies!
+
+## How to use  useReducer
++ It is useful for more complex state e.g multiple states that change together or similar
++ It is more powerful state management
++ Syntax:
+    const[state, dispatchfxn] = useReducer(reducerFxn, initialState, initFn)

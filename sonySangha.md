@@ -1,6 +1,6 @@
 ## Using the useEffect Hook in react
 + it performs side effect on a functional component
-+ it replaces all the lifecycle functions inn the class components
++ it replaces all the lifecycle functions in the class components
 
 + In class components we have: 
     componentDidMount: when component mounts/loads 
